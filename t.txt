@@ -1,0 +1,19 @@
+google_login_project/
+├── manage.py
+├── db.sqlite3
+├── env/
+├── google_login_project/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── mainApp/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── migrations/
+
