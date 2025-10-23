@@ -1,4 +1,5 @@
 
+
 from django.db import models
 
 # Add models if needed
@@ -8,3 +9,5 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.user.username
+
+

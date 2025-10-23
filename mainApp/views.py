@@ -1,3 +1,5 @@
+
+
 import os
 import requests
 from django.http import JsonResponse, HttpResponseRedirect
@@ -68,3 +70,4 @@ def google_callback(request):
         })
     except Exception as e:
         return JsonResponse({'error': f'Google login failed: {str(e)}'}, status=500)
+
